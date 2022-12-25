@@ -1,0 +1,131 @@
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swiper"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/totalsteps"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Total Step Taken"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/total_steps"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@id/totalsteps"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/totaldistance"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Total Distance Travelled"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+             android:layout_below="@id/total_steps"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/total_distance"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@id/totaldistance"  />
+            <TextView
+                android:id="@+id/totalduration"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Total Duration"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_below="@id/total_distance"/>
+            <TextView
+                android:id="@+id/total_duration"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/totalduration"
+            android:textSize="16dp"    />
+            <TextView
+                android:id="@+id/averagespeed"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Average Speed"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/total_duration"
+                android:textSize="16dp"     />
+        <TextView
+            android:id="@+id/average_speed"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/averagespeed"
+            android:textSize="16dp"  />
+            <TextView
+                android:id="@+id/averagefrequency"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Average Step Frequency"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/average_speed"
+                android:textSize="16dp"  />
+        <TextView
+            android:id="@+id/average_frequency"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/averagefrequency"
+            android:textSize="16dp"/>
+               <TextView
+                android:id="@+id/caloriesburned"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Total Calories burned"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_below="@id/average_frequency"
+                android:textSize="16dp"   />
+        <TextView
+                android:id="@+id/calories_burned"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_below="@id/caloriesburned"
+            android:textSize="16dp"
+            />
+            <TextView
+                android:id="@+id/physicalactivitytype"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:text="Physical Activity Type"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_below="@+id/calories_burned"
+                android:textSize="16dp"
+                />
+            <TextView
+                android:id="@+id/physical_activitytype"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_below="@id/physicalactivitytype"
+                android:textSize="16dp"
+                />
+    </RelativeLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
